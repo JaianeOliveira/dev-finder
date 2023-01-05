@@ -1,5 +1,9 @@
-# Buscador de usuários do github
+# Github-search-users
 
+![Test button](https://img.shields.io/badge/-Clique%20aqui%20para%20testar-1E2948)
+![GitHub](https://img.shields.io/github/license/JaianeOliveira/search-github-users?style=social)
+
+![Gerador de senhas (2)](https://user-images.githubusercontent.com/82323559/210893465-14fcd16a-47ab-47e9-b24d-865ca079ded0.png)
 
 ## Style Guide
 
