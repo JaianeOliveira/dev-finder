@@ -1,4 +1,5 @@
 # Github-search-users
+Buscador de informações sobre usuários do github feito com ReactJS.
 
 ![Test button](https://img.shields.io/badge/-Clique%20aqui%20para%20testar-1E2948)
 ![GitHub](https://img.shields.io/github/license/JaianeOliveira/search-github-users?style=social)
