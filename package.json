@@ -4,10 +4,14 @@
 	"version": "0.0.0",
 	"type": "module",
 	"license": "MIT",
+	"homepage": "https://jaianeoliveira.github.io/dev-finder",
+
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"@hookform/resolvers": "^2.9.10",
