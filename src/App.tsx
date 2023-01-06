@@ -48,11 +48,7 @@ const App = () => {
 		})
 		.required();
 
-	const {
-		register,
-		formState: { errors },
-		handleSubmit,
-	} = useForm<IFormInputs>({
+	const { register, formState, handleSubmit } = useForm<IFormInputs>({
 		resolver: yupResolver(schema),
 	});
 
@@ -74,7 +70,6 @@ const App = () => {
 					created_at,
 					avatar_url,
 					html_url,
-					...data
 				},
 				status,
 			} = await githubApi.get(`/${username}`);
@@ -95,7 +90,6 @@ const App = () => {
 					created_at,
 					html_url,
 				});
-				console.log(data);
 			}
 		} catch (err: any) {
 			if (err.response.status === 404) {
