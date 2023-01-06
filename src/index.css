@@ -1,8 +1,23 @@
 :root {
+	--dark-blue: #f0f0f0;
+	--blue: #ffffff;
+	--light-blue: #0079fe;
+	--gray: #1e2948;
+	--white: #141c2f;
+
+	--toastify-color-dark: #1e2948;
+	--toastify-toast-width: 400px;
+}
+
+[data-theme='light'] {
 	--dark-blue: #141c2f;
 	--blue: #1e2948;
 	--light-blue: #0079fe;
 	--gray: #cad2e3;
+	--white: #ffffff;
+
+	--toastify-color-dark: #1e2948;
+	--toastify-toast-width: 400px;
 }
 
 * {
@@ -11,7 +26,7 @@
 	box-sizing: border-box;
 
 	font-family: 'Space Mono', monospace;
-	color: #ffffff;
+	color: var(--white);
 }
 
 a {
