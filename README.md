@@ -1,7 +1,7 @@
 # Devfinder
 Buscador de informações sobre usuários do github feito com ReactJS.
 
-![Test button](https://img.shields.io/badge/-Clique%20aqui%20para%20testar-1E2948)
+[![Test button](https://img.shields.io/badge/-Clique%20aqui%20para%20testar-1E2948)](https://dev-finder-xi-liard.vercel.app/)
 [![badge](https://img.shields.io/badge/Frontend%20Mentor-link%20do%20desafio-0079FE)](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6)
 ![GitHub](https://img.shields.io/github/license/JaianeOliveira/search-github-users?style=social)
 
